@@ -17,7 +17,7 @@
 // console.log("Email id of the user id is: " + email);
 // console.log("end");
 
-// How do you solve this problem. How can we wait for till the function execution is completed, so that we can have correct email at line 10?
+// *How do you solve this problem. How can we wait for till the function execution is completed, so that we can have correct email at line 10?
 
 // function getData(uId) {
 //   return new Promise((resolve) => {
@@ -40,6 +40,7 @@ function getData(uId){
 }
 
 async function showEmail() {
+
   console.log("Start");
 
   const email = await getData("skc"); // waits until Promise resolves

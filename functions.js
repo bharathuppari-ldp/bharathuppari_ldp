@@ -1,4 +1,5 @@
 //Q1. Write a program to demonstrate how a function can be passed as a parameter to another function.
+
 function num(){
     return 10;
 }

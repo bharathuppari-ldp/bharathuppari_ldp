@@ -6,7 +6,7 @@ function debounce(fn, delay) {
   };
 }
 
-// Simulated API call
+
 function searchAPI(query) {
   console.log("Searching for:", query);
   document.getElementById("output").innerText = `Results for "${query}"`;
