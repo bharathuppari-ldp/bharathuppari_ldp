@@ -28,6 +28,7 @@
 //   });
 // }
 
+
 const p=new Promise((reslove,reject)=>{
     setTimeout(()=>{
         console.log("Fetched the data!");
