@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZeMoSo Restaurant App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="tables-section">
+            <h2 class="section-title">Tables</h2>
+            <input type="text" id="search-table" class="search-bar" placeholder="Search table" onkeyup="searchTables()">
+            
+            <div id="table-list" class="list-container">
+                </div>
+        </div>
+
+        <div class="menu-section">
+            <h2 class="section-title">Menu</h2>
+            <input type="text" id="search-menu" class="search-bar" placeholder="Search menu... by course, by food" onkeyup="searchMenu()">
+            
+            <div id="menu-list" class="list-container">
+                </div>
+        </div>
+
+    </div>
+
+    <div id="order-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-table-name">Table - 1 | Order Details</h3>
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+            </div>
+            
+            <div class="modal-body">
+                <table class="bill-table">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Item</th>
+                            <th>Price</th>
+                            <th>Number of Servings</th> <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="modal-items-body">
+                        </tbody>
+                </table>
+                <div class="total-section">
+                    <h3>Total: <span id="modal-total-price">0.00</span></h3>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="close-session-btn" onclick="closeSession()">CLOSE SESSION (GENERATE BILL)</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
