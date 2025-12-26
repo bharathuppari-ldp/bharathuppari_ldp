@@ -48,11 +48,7 @@ export default function SideBar({ title , logo , items , activeItem, setActiveIt
 
         {items.map((item) => (
           <MenuItem
-            // key={index}
-            // text={item.text}
-            // // icon={item.icon}
-            // isActive={activeItem === item.text}
-            // onClick={() => setActiveItem(item.text)}
+          
             key={item.text}
             text={item.text}
             icon={item.icon}

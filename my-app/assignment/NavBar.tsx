@@ -19,5 +19,3 @@ const menuItems = [
 // 🏠 💰 📊
 
 export default NavBar;
-
-

@@ -1,4 +1,5 @@
 
+
 interface MenuItemProps {
   text: string;
   isActive?: boolean;
