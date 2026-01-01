@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import LogoMark from "../atoms/LogoMark";
 
+
 export default function BrandHeader() {
   return (
     <Box display="flex" alignItems="center" gap={1.5} mb={4}>
