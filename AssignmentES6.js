@@ -20,10 +20,8 @@
 const printName= name => "Hi "+name;
 console.log(printName("Bharath"));
 
-
 const printBill=(name,bill) => `Hi ${name}, please pay: ${bill}`;
 console.log(printBill("Bharath",100));
-
 
 const person = {
   name: "Bharath",
