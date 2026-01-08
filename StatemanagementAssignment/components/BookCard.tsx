@@ -53,3 +53,4 @@ const BookCard: React.FC<BookCardProps> = ({ book, isFinished, onAction }) => {
 };
 
 export default BookCard;
+
