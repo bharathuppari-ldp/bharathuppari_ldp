@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Bharath",
+      "email": "Bharath@example.com",
+      "role": "Admin",
+      "active": true
+    },
+    {
+      "id": "2",
+      "name": "Goutham",
+      "email": "Goutham@example.com",
+      "role": "User",
+      "active": false
+    },
+    {
+      "id": "3",
+      "name": "Sriram",
+      "email": "Sriram@example.com",
+      "role": "User",
+      "active": false
+    },
+    {
+      "id": "2eb3",
+      "name": "Hemanth",
+      "email": "Hemanth@example.com",
+      "role": "User",
+      "active": false
+    },
+    {
+      "id": "6b82",
+      "name": "zemoso",
+      "email": "zemoso@example.com",
+      "role": "Admin",
+      "active": false
+    }
+  ]
+}
