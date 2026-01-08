@@ -1,6 +1,6 @@
-import React from "react"
-import ComponentOne from "./Components/Component1"
-import ComponentTwo from "./Components/Component2"
+import React from "react";
+import ComponentOne from "./Components/Component1";
+import ComponentTwo from "./Components/Component2";
 
 function App() {
 
