@@ -23,3 +23,4 @@ export default function ActionButtons({ active, onEdit, onToggle, onDelete }: Pr
     </Stack>
   );
 }
+

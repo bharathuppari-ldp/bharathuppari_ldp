@@ -20,3 +20,4 @@ export const createUser = (data: Partial<User>) => userApi.post<User>('/', data)
 export const updateUser = (id: number, data: User) => userApi.put<User>(`/${id}`, data);
 export const patchUser = (id: number, data: Partial<User>) => userApi.patch<User>(`/${id}`, data);
 export const deleteUser = (id: number) => userApi.delete(`/${id}`);
+

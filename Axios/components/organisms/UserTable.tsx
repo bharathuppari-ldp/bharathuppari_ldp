@@ -16,7 +16,6 @@ interface Props {
   onDelete: (id: number) => void;
 }
 
-
 export default function UserTable({ users, onEdit, onToggle, onDelete }: Props) {
   return (
     <Table>
@@ -51,3 +50,4 @@ export default function UserTable({ users, onEdit, onToggle, onDelete }: Props) 
     </Table>
   );
 }
+
