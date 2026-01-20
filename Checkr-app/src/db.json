@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": "e0928944-880e-40f1-94ac-3d884d373acd",
+      "email": "abc@email.com",
+      "password": "a1b2c3"
+    },
+    {
+      "id": "39966916-2581-4b06-aaca-80ab13887aa9",
+      "email": "zemoso@example.com",
+      "password": "a1b2c3"
+    }
+  ]
+}
